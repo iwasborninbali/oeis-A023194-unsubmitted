@@ -1,0 +1,6 @@
+arguments checked: 100000
+prime divisor-sum arguments: 23
+collisions within range: [(31, [16, 25])]
+8191 repunits: 8191 8191
+all nontrivial repunit representations of 8191: [(2, 13), (90, 3)]
+all nontrivial repunit representations of 31: [(2, 5), (5, 3)]

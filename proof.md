@@ -1,0 +1,7 @@
+# Conditional reduction
+
+Suppose σ(n) is prime. If n has two distinct prime factors, multiplicativity expresses σ(n) as a product of two integers greater than one. Thus n=p^e with p prime and e≥1. If e+1=ab with a,b>1, the sum 1+p+⋯+p^e factors as (1+p+⋯+p^(a−1))(1+p^a+⋯+p^((b−1)a)), so e+1 must be prime.
+
+For two distinct arguments with the same prime divisor sum, their prime bases must differ: the sum strictly increases with the exponent for a fixed base. A two-digit repunit p+1 is prime only for p=2, giving 3 and no second representation as a repunit of length at least 3. Thus any collision corresponds to two repunit representations of a prime with bases at least 2 and lengths at least 3.
+
+Assume the Goormaghtigh conjecture: the only integers with two such representations in distinct bases are 31 and 8191. Direct calculation gives 31=1+2+4+8+16=1+5+25, yielding σ(16)=σ(25)=31. The same finite enumeration checks all other possibilities for 31: the base is at most 5 and the length at most 5, and these are its only two representations. For 8191, any base lies between 2 and 90 because 1+b+b²≤8191, and any length is at most 13 because 2^13−1=8191. The exact enumeration in verification/check.py checks all these bases and lengths and finds only 8191=1+2+⋯+2^12=1+90+90². Base 90 is not prime and therefore cannot correspond to a prime-power argument; 8191 has only one prime-power preimage. The stated uniqueness follows conditionally. This does not establish the Goormaghtigh conjecture or unconditional uniqueness.
