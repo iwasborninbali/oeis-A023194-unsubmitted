@@ -1,7 +1,7 @@
 # OEIS A023194: conditional uniqueness argument (not yet submitted)
 
 <!-- oeis-status:begin -->
-**OEIS status: not submitted** (lab registry, 13 Nov 2026).
+**OEIS status: not submitted** (lab registry, 14 Nov 2026).
 
 - [A023194](https://oeis.org/A023194), the 'Proof' assumes the Goormaghtigh conjecture (check Grantham 2024): **candidate** (2026-11-13: repository built (core c6)). Certificate: complete.
 
