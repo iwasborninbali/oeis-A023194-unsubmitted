@@ -1,0 +1,23 @@
+method: enumerate p^(q-1), primes p,q; deterministic 64-bit Miller-Rabin
+argument range: 1..100000000000000 inclusive
+sieve prime-base bound: 10000000
+prime bases generated: 664579
+prime exponents used: [3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
+per-exponent (q, candidates, prime sigma): [(3, 664579, 33661), (5, 446, 51), (7, 47, 11), (11, 9, 2), (13, 6, 4), (17, 4, 1), (19, 3, 1), (23, 2, 0), (29, 2, 0), (31, 1, 1), (37, 1, 0), (41, 1, 0), (43, 1, 0), (47, 1, 0)]
+candidate prime powers tested (including n=2): 665104
+arguments with prime sigma (full range): 33733
+distinct prime sigma values (full range): 33732
+collisions (full range): [(31, [16, 25])]
+arguments with prime sigma (1..100000): 23
+terms through 100000: [2, 4, 9, 16, 25, 64, 289, 729, 1681, 2401, 3481, 4096, 5041, 7921, 10201, 15625, 17161, 27889, 28561, 29929, 65536, 83521, 85849]
+31 nontrivial repunits (base,length): [(2, 5), (5, 3)]
+31 prime-base preimages (base,length,n): [(2, 5, 16), (5, 3, 25)]
+31 primality: True
+direct sigma(16) = 31
+direct sigma(25) = 31
+8191 nontrivial repunits (base,length): [(2, 13), (90, 3)]
+8191 prime-base preimages (base,length,n): [(2, 13, 4096)]
+8191 primality: True
+direct sigma(4096) = 8191
+all assertions: PASS
+elapsed wall-clock seconds: 3.339
